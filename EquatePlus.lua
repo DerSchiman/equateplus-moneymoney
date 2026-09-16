@@ -367,7 +367,7 @@ function InitializeSession2 (protocol, bankCode, step, credentials, interactive)
       title=target["name"],
       challenge=challenge,
       poll=true,
-      tanMethod={name="QR-Code"},
+      tanMethod={name=MM.localizeText("QR Code")},
     }
 
   else
